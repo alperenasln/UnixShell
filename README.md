@@ -1,10 +1,10 @@
 
-Unix Shell
+#Unix Shell
 This unix shell has 2 main function;
 
-1-Interactive Mode
+##1-Interactive Mode
 Interactive mode takes commands to call the system like shells that we use normally in order to used symbols("|" and ";").
-2-Batch Mode
+##2-Batch Mode
 In the batch mode, system takes file (.bat) and reads file with a given order. When it takes the "quit" command , it quits.
 
 There are helper functions as;
@@ -16,5 +16,4 @@ There are helper functions as;
 
 We used pthread library and properties of pthread library like pthread_create, pthread_join, pthread_exit, pthread_t and we used them to distribute processes to threads.
  
-Alperen ASLAN
-Yiğithan ÖCAL
+
