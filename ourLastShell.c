@@ -4,7 +4,7 @@
 #include <pthread.h> 
 #define NUM_THREADS 16
 
-//Function declarations that we used for this assignment
+//Function declarations 
 int scan(char *str, char split);
 void *systemcall(void *call);
 void receive(char *process);
