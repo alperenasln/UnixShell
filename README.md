@@ -14,8 +14,11 @@ In the batch mode, system takes file (.bat) and reads file with a given order. W
 There are helper functions as;
 
 1-scan() : Takes the command line and scans it, returns the number of characters.
+
 2-systemcall() : Useful function to direct commands to main shell.
+
 3-receive() : Sends the procceses to thread by using pthread() functions.
+
 4-split_process() : Splits command line to process with a given order.
 
 We used pthread library and properties of pthread library like pthread_create, pthread_join, pthread_exit, pthread_t and we used them to distribute processes to threads.
